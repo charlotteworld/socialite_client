@@ -1,0 +1,89 @@
+label, input 
+{ display:block; }
+   
+input.text 
+{ margin-bottom:12px; width:95%; padding: .4em; }
+    
+fieldset 
+{ padding:0; border:0; margin-top:25px; }
+  
+.ui-dialog .ui-state-error
+{ padding: .3em; }
+
+.validateTips 
+{ border: 1px solid transparent; padding: 0.3em; }
+
+#map-canvas
+{
+	border: 2px solid;
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+
+/********************************************************************/
+/*** PANEL PRIMARY ***/
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+    color: #428bca;
+    background-color: #fff;
+    border-color: #428bca;
+    border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+   
+/********************************************************************/
+
+/**** search in add new friends ***/
+.custom-search-form{
+    margin-top:5px;
+}
+
+.panel-heading div {
+            margin-top: -18px;
+            font-size: 15px;
+}
+.panel-heading div span{
+            margin-left:5px;
+}
+.panel-body{
+    display: none;
+}
+
+#friendsUL
+{
+    height: 42px;
+}
+
+#friendsContainer
+{
+    width: 1000px;
+}
